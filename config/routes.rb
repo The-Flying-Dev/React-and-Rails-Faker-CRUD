@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
 
   namespace :api do 
-    resources :stocks
+    namespace :v1 do
+      resources :stocks, exept: [:show, :new, :edit]
+    end    
   end
   
   root 'pages#index'
