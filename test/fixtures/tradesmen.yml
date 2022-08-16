@@ -2,12 +2,10 @@
 
 one:
   name: MyString
-  description: MyString
-  quantity: 1
-  unit_price: 1.5
+  field_of_work: MyString
+  avatar: MyString
 
 two:
   name: MyString
-  description: MyString
-  quantity: 1
-  unit_price: 1.5
+  field_of_work: MyString
+  avatar: MyString

@@ -11,8 +11,9 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 
 
+gem "faker", "~> 2.20"
+gem "active_model_serializers", "~> 0.10.13"
 gem 'react-rails', '~> 2.6', '>= 2.6.2'
-
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
