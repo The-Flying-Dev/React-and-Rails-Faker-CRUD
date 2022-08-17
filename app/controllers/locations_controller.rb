@@ -1,7 +1,7 @@
 class LocationsController < ApplicationController 
 
   def index 
-    render json: Job.all
+    render json: Location.all
   end
   
 end
