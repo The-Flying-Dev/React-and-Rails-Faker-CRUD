@@ -3,5 +3,5 @@ class Tradesman < ApplicationRecord
   has_many :locations, through: :jobs 
 
   validates :name, uniqueness: true
-  validates :name, :field_of_work, presense: true
+  validates :name, :field_of_work, presence: true
 end

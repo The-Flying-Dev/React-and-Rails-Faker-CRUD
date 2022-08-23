@@ -31,7 +31,7 @@ class TradesmenController < ApplicationController
       @tradesman = Tradesman.find(params[:id])
   end
 
-  def scientist_params
+  def tradesman_params
       params.permit(:name, :field_of_work, :avatar)
   end
   
